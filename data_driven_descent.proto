@@ -1,0 +1,113 @@
+package ddd;
+
+enum WarpType {
+	FORWARD = 0;
+	BACKWARD = 1;
+}
+
+enum DeformationType {
+	AFFINE = 0;
+	LANDMARK = 1;
+}
+
+enum SampleType {
+	RANDOM = 0;
+	ONLY_TRANSLATION = 1;
+}
+
+message DeformationSpec {
+	// Type of warp, forward or backward.
+	optional WarpType warp_type = 1;
+
+	// Type of deformation
+	optional DeformationType deformation_type = 2;
+
+	// Image width.
+	optional int32 image_width = 3;
+
+	// Image height.
+	optional int32 image_height = 4;
+
+	// Parameters to specify the landmark locations.
+	optional int32 num_landmarks = 5;
+
+	// [x1, x2, x3, ..., y1, y2, y3, ...,]
+	repeated float landmarks = 6;
+
+	// Total degrees of freedom.
+	optional int32 dof = 7;
+}
+
+message Region {
+	optional int32 id = 1;
+
+	optional int32 left = 2;
+	optional int32 top = 3;
+	optional int32 width = 4;
+	optional int32 height = 5;
+
+	// Subset of landmarks (x and y components are separated.)
+	repeated int32 subsets = 6;
+
+	// Magnitude of deformation field
+	optional float max_magnitude = 8 [default = 1e10];
+	optional float min_magnitude = 9 [default = 0];
+}
+
+// Design the sample specification.
+message SampleSpec {
+	// Number of samples to be generated.
+	optional int32 num_samples = 1;
+
+	optional SampleType sample_type = 2;
+
+	// Sample derivation.
+	optional float sigma = 3;
+
+	// Power used to generate samples.
+	optional float power = 4 [default = 1.0];	
+}
+
+// Layer specification.
+message LayerSpec {
+	// Layer number.
+	optional int32 layer = 1;
+
+	// Sample specification.
+	optional SampleSpec sample_spec = 2;
+
+	// Regions within each layer.
+	repeated Region regions = 3;
+
+	// Number of (inner) iterations for each layer.
+	optional int32 num_iterations = 4 [default = 1];
+
+  	// Density of image pixels to be sampled.
+	optional int32 num_samples_per_dim = 5;
+}
+
+// Design the algorithm specification.
+message AlgSpec {
+	repeated LayerSpec layers = 1;
+
+	// Nearest neighbor constant.
+	optional int32 nearest_neighbor = 2 [default = 1];
+
+	// Whether to dump intermediate results.
+	optional bool dump_intermediate = 3;
+}
+
+// Results
+message Result {
+	message Frame {
+	    optional int32 t = 1;
+	    optional float error = 2;
+	    repeated float representation = 3;
+	    repeated float estimates = 4;
+	}
+	// Estimated parameters.
+	repeated float estimates = 1;
+
+	// Results per frame.
+	repeated Frame frames = 2;
+}
