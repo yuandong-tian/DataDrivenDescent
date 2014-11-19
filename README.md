@@ -8,3 +8,10 @@ Yuandong Tian, Srinivasa G. Narasimhan
 
 A Globally Optimal Data-Driven Approach for Image Distortion Estimation, CVPR 2010 [\[PDF\]](http://yuandong-tian.com)   
 Yuandong Tian, Srinivasa G. Narasimhan
+
+Usage
+-----------------
+
+    cmake ./
+    make
+    ./deformation_tracker.py
