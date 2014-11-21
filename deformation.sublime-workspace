@@ -1,0 +1,1943 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"genera",
+				"generated_img"
+			],
+			[
+				"field",
+				"field_server"
+			],
+			[
+				"CHECK",
+				"CHECK_NOTNULL"
+			],
+			[
+				"Param",
+				"ParametricField"
+			],
+			[
+				"Sample",
+				"SampleGenerator"
+			],
+			[
+				"smple",
+				"sample_locs"
+			],
+			[
+				"ddd",
+				"ddd_estimator_"
+			],
+			[
+				"max_",
+				"max_magnitude"
+			],
+			[
+				"num",
+				"num_iterations"
+			],
+			[
+				"deformation",
+				"deformation_spec_"
+			],
+			[
+				"deform",
+				"deformation_spec_"
+			],
+			[
+				"landmark",
+				"landmarks_global"
+			],
+			[
+				"plot",
+				"plot_landmarks"
+			],
+			[
+				"distortion",
+				"distortion_sigma"
+			],
+			[
+				"as",
+				"ascontiguousarray"
+			],
+			[
+				"GetP",
+				"GetParameters"
+			],
+			[
+				"translation",
+				"translation_field_"
+			],
+			[
+				"GetGen",
+				"GetGenerated"
+			],
+			[
+				"trans",
+				"translation_field_"
+			],
+			[
+				"deformation_sp",
+				"deformation_pylib_methods"
+			],
+			[
+				"num_i",
+				"num_inner_iteration"
+			],
+			[
+				"Max_",
+				"max_magnitude"
+			],
+			[
+				"GetNum",
+				"GetNumOfSamples"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"dist",
+				"distortion_sigma"
+			],
+			[
+				"algs",
+				"alg_spec"
+			],
+			[
+				"war",
+				"warp_type"
+			],
+			[
+				"generated",
+				"generated_image_"
+			],
+			[
+				"all",
+				"all_counter_zero"
+			],
+			[
+				"warp",
+				"warp_type"
+			],
+			[
+				"subsets",
+				"subsets"
+			],
+			[
+				"Regre",
+				"RegressorEmsemble"
+			],
+			[
+				"regerssor",
+				"regressor_emsemble_"
+			],
+			[
+				"Get",
+				"GetParameters"
+			],
+			[
+				"regress",
+				"regressor_emsemble"
+			],
+			[
+				"regressor_emsem",
+				"regressor_emsemble_"
+			],
+			[
+				"Regres",
+				"RegressorEmsemble"
+			],
+			[
+				"Colve",
+				"GetColVec"
+			],
+			[
+				"Compute",
+				"ComputeRepresentation"
+			],
+			[
+				"repre",
+				"representer_"
+			],
+			[
+				"template",
+				"template_img"
+			],
+			[
+				"parameters",
+				"parameters_"
+			],
+			[
+				"num_",
+				"num_landmarks"
+			],
+			[
+				"LAdnmark",
+				"LANDMARK"
+			],
+			[
+				"nearest",
+				"nearest_neighbor"
+			],
+			[
+				"SetP",
+				"SetParameters"
+			],
+			[
+				"deforma",
+				"deformation_spec_"
+			],
+			[
+				"Generate",
+				"Generate"
+			],
+			[
+				"Parametric",
+				"ParametricField"
+			],
+			[
+				"Init",
+				"InitializeDeformation"
+			],
+			[
+				"DeformImageWith",
+				"DeformImageWithField"
+			],
+			[
+				"back",
+				"BACKWARD"
+			],
+			[
+				"LANDMARKS",
+				"landmarks"
+			],
+			[
+				"DEFORMATI",
+				"deformation_spec_"
+			],
+			[
+				"For",
+				"FORWARD"
+			],
+			[
+				"Copy",
+				"CopyTo"
+			],
+			[
+				"ident",
+				"identity_view"
+			],
+			[
+				"expected",
+				"expected_img_width_"
+			],
+			[
+				"expe",
+				"expected_img_width_"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"repr",
+				"representer"
+			],
+			[
+				"SetLandmark",
+				"SetLandmarkShifts"
+			],
+			[
+				"Deform",
+				"Deform"
+			],
+			[
+				"K",
+				"K"
+			],
+			[
+				"index",
+				"indexValid"
+			],
+			[
+				"colc",
+				"colc"
+			],
+			[
+				"Meth",
+				"METH_VARARGS"
+			],
+			[
+				"ImageView",
+				"ImageViewDefault"
+			],
+			[
+				"expected_",
+				"expected_img_width_"
+			],
+			[
+				"rows",
+				"rows"
+			],
+			[
+				"dx",
+				"dx"
+			],
+			[
+				"dim",
+				"dim"
+			],
+			[
+				"internal",
+				"internal_vars_given"
+			],
+			[
+				"var_co",
+				"var_conditions"
+			],
+			[
+				"vars_info",
+				"vars_info_output"
+			],
+			[
+				"var_con",
+				"var_content"
+			],
+			[
+				"I1",
+				"I1**2"
+			],
+			[
+				"theta",
+				"theta"
+			],
+			[
+				"z",
+				"z"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"game",
+				"game_settings"
+			],
+			[
+				"var_max_",
+				"var_max_numval"
+			],
+			[
+				"this_",
+				"this_vars_given"
+			],
+			[
+				"enum",
+				"enumerate_vars"
+			],
+			[
+				"var",
+				"var_names"
+			],
+			[
+				"current",
+				"curr_sentence"
+			],
+			[
+				"num_se",
+				"num_steps"
+			],
+			[
+				"schedule_py",
+				"schedule_pylib"
+			],
+			[
+				"One",
+				"OneOrMore"
+			],
+			[
+				"String",
+				"StringEnd"
+			],
+			[
+				"assert",
+				"assertTimeEqual"
+			],
+			[
+				"util_dt_",
+				"util_dt_time"
+			],
+			[
+				"repeat",
+				"repeat_duration"
+			],
+			[
+				"alterna",
+				"alternative"
+			],
+			[
+				"self",
+				"self"
+			],
+			[
+				"Done",
+				"Done"
+			],
+			[
+				"best_",
+				"best_penalty"
+			],
+			[
+				"lower",
+				"lower_bound"
+			],
+			[
+				"alternative",
+				"alternative_duration"
+			],
+			[
+				"st",
+				"st"
+			],
+			[
+				"time_this",
+				"time_this"
+			],
+			[
+				"h",
+				"here"
+			],
+			[
+				"earliest",
+				"earliest_start_time"
+			],
+			[
+				"latest",
+				"latest_start_time"
+			],
+			[
+				"repea",
+				"repeat_duration"
+			],
+			[
+				"atom_",
+				"atom_time"
+			],
+			[
+				"sche",
+				"scheduling_"
+			],
+			[
+				"schedul",
+				"scheduling_"
+			],
+			[
+				"Sched",
+				"Scheduling"
+			],
+			[
+				"time_seg",
+				"time_segment"
+			],
+			[
+				"cool_down",
+				"cool_down_table"
+			],
+			[
+				"new_task",
+				"new_task_index"
+			],
+			[
+				"prev_task",
+				"prev_task_id"
+			],
+			[
+				"curr",
+				"curr_datetime"
+			],
+			[
+				"has_fixed",
+				"has_fixed_tolerance"
+			],
+			[
+				"search",
+				"search_steps"
+			],
+			[
+				"end_time",
+				"end_timestamps"
+			],
+			[
+				"end_timestm",
+				"end_timestamps"
+			],
+			[
+				"num_sc",
+				"num_scheduled"
+			],
+			[
+				"fixed_",
+				"fixed_start"
+			],
+			[
+				"Fixed",
+				"FixedTolerance"
+			],
+			[
+				"parse_",
+				"parse_time"
+			],
+			[
+				"FixedT",
+				"FixedTolerance"
+			],
+			[
+				"interval",
+				"intervals"
+			],
+			[
+				"file",
+				"file_include_patterns"
+			],
+			[
+				"schedule",
+				"schedule_added"
+			],
+			[
+				"schedu",
+				"schedule，口气和之前换手机的时候完全一样。"
+			],
+			[
+				"file_",
+				"file_include_patterns"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/yuandong/Dropbox/research/thesis/papers/dl_theory/newtheory2.tex",
+			"settings":
+			{
+				"buffer_size": 8938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data_driven_descent.h",
+			"settings":
+			{
+				"buffer_size": 14823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test_eigen.cc",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "deformation.sublime-project",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/mouse_and_match.py",
+			"settings":
+			{
+				"buffer_size": 2641,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/opencv_sample.py",
+			"settings":
+			{
+				"buffer_size": 2307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "vis#!/usr/bin/env python\n\n'''\nMorphology operations.\n\nUsage:\n  morphology.py [<image>]\n\nKeys:\n  1   - change operation\n  2   - change structure element shape\n  ESC - exit\n'''\n\nimport numpy as np\nimport cv2\n\n\nif __name__ == '__main__':\n    print __doc__\n\n    import sys\n    from itertools import cycle\n    from common import draw_str\n\n    try:\n        fn = sys.argv[1]\n    except:\n        fn = '../data/baboon.jpg'\n\n    img = cv2.imread(fn)\n\n    if img is None:\n        print 'Failed to load image file:', fn\n        sys.exit(1)\n\n    cv2.imshow('original', img)\n\n    modes = cycle(['erode/dilate', 'open/close', 'blackhat/tophat', 'gradient'])\n    str_modes = cycle(['ellipse', 'rect', 'cross'])\n    cur_mode = modes.next()\n    cur_str_mode = str_modes.next()\n\n    def update(dummy=None):\n        sz = cv2.getTrackbarPos('op/size', 'morphology')\n        iters = cv2.getTrackbarPos('iters', 'morphology')\n        opers = cur_mode.split('/')\n        if len(opers) > 1:\n            sz = sz - 10\n            op = opers[sz > 0]\n            sz = abs(sz)\n        else:\n            op = opers[0]\n        sz = sz*2+1\n\n        str_name = 'MORPH_' + cur_str_mode.upper()\n        oper_name = 'MORPH_' + op.upper()\n        st = cv2.getStructuringElement(getattr(cv2, str_name), (sz, sz))\n        res = cv2.morphologyEx(img, getattr(cv2, oper_name), st, iterations=iters)\n\n        draw_str(res, (10, 20), 'mode: ' + cur_mode)\n        draw_str(res, (10, 40), 'operation: ' + oper_name)\n        draw_str(res, (10, 60), 'structure: ' + str_name)\n        draw_str(res, (10, 80), 'ksize: %d  iters: %d' % (sz, iters))\n        cv2.imshow('morphology', res)\n\n    cv2.namedWindow('morphology')\n    cv2.createTrackbar('op/size', 'morphology', 12, 20, update)\n    cv2.createTrackbar('iters', 'morphology', 1, 10, update)\n    update()\n    while True:\n        ch = 0xFF & cv2.waitKey()\n        if ch == 27:\n            break\n        if ch == ord('1'):\n            cur_mode = modes.next()\n        if ch == ord('2'):\n            cur_str_mode = str_modes.next()\n        update()\n    cv2.destroyAllWindows()\n",
+			"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/morphology.py",
+			"file_size": 2074,
+			"file_write_time": 130599036670000000,
+			"settings":
+			{
+				"buffer_size": 2077,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/plane_tracker.py",
+			"settings":
+			{
+				"buffer_size": 5878,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 777,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data_driven_descent.pb.cc",
+			"settings":
+			{
+				"buffer_size": 93850,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "distort_image.py",
+			"settings":
+			{
+				"buffer_size": 14675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "distortion_util.py",
+			"settings":
+			{
+				"buffer_size": 11107,
+				"line_ending": "Unix",
+				"name": "import numpy;"
+			}
+		},
+		{
+			"file": "/Users/yuandong/Dropbox/linux.org",
+			"settings":
+			{
+				"buffer_size": 21622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "deformations.h",
+			"settings":
+			{
+				"buffer_size": 19156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#ifndef _IMAGE_INTERP_H_\n#define _IMAGE_INTERP_H_\n\n#include \"image.h\"\n\n// Image Interface, offer different functionality.\ntemplate <class PixelType, class LocationType>\nclass ImageInterp {\nprivate:\n  const ImageView<PixelType> *image_;\npublic:\n  ImageInterp(const ImageView<PixelType> &image) {\n      image_ = &image;\n  }\n\n  operator const ImageView<PixelType>& () const {\n    return *image_;\n  }\n\n  PixelType interpolate_fill_default(LocationType x, LocationType y, PixelType default_value) const {\n    if (x >= 0 && x < image_->m() - 1 && y >= 0 && y < image_->n() - 1)\n	  return interpolate(x, y);\n    else return default_value;\n  }\n\n  inline PixelType interpolate(LocationType x, LocationType y) const {\n    // Bilinear interpolation. No check.\n    const int y_i = floor(y);\n    const int x_i = floor(x);\n    const LocationType y_r = y - y_i;\n    const LocationType x_r = x - x_i;\n    \n    const PixelType left_top = image_->GetXC(x_i, y_i);\n    const PixelType left_bottom = image_->GetXC(x_i, y_i + 1);\n    const PixelType right_top = image_->GetXC(x_i + 1, y_i);\n    const PixelType right_bottom = image_->GetXC(x_i + 1, y_i + 1);\n    \n    LocationType c_rb = y_r * x_r;\n    LocationType c_rt = x_r - c_rb;  // (1 - y_r) * x_r;\n    LocationType c_lb = y_r - c_rb;  // y_r * (1 - x_r);\n    LocationType c_lt = 1 - c_rb - c_rt - c_lb;  // (1 - x_r) * (1 - y_r)\n    \n    return left_top * c_lt + left_bottom * c_lb + right_top * c_rt + right_bottom * c_rb;\n  }\n\n  // Call interpolation for each location.\n  // void interpolate(const ImageView<PixelType>& img, \n  //                  const ImageView<LocationType>& wx, \n  //                  const ImageView<LocationType>& wy, \n  //                  ImageView<PixelType>* output) {\n  //   // Preprocessing:\n  //   vector<const PixelType*> scanlines(img.cols());\n  //   for (int j = 0; j < img.cols(); ++j) {\n  //     scanlines[j] = img.colc(j);\n  //   }\n\n  //   // Then interpolate.\n  //   for ()\n\n  // }\n};\n\n#endif\n",
+			"file": "image_interp.h",
+			"file_size": 1933,
+			"file_write_time": 130602999970000000,
+			"settings":
+			{
+				"buffer_size": 1969,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data_driven_descent.proto",
+			"settings":
+			{
+				"buffer_size": 2286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data_driven_descent_pb2.py",
+			"settings":
+			{
+				"buffer_size": 20401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "deformation_tracker.py",
+			"settings":
+			{
+				"buffer_size": 5447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "video.py",
+			"settings":
+			{
+				"buffer_size": 4813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data_driven_descent.pb.h",
+			"settings":
+			{
+				"buffer_size": 59566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "distortion_py2.cc",
+			"settings":
+			{
+				"buffer_size": 10586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "legancy.cc",
+			"settings":
+			{
+				"buffer_size": 1630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "regressor.h",
+			"settings":
+			{
+				"buffer_size": 3251,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"svn:diff",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn:",
+				"SVN: Diff"
+			],
+			[
+				"command",
+				"SVN: Show Applicable File Commands"
+			],
+			[
+				"packageins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"convert8",
+				"ConvertToUTF8: Reload with Encoding"
+			]
+		],
+		"width": 584.0
+	},
+	"console":
+	{
+		"height": 229.0,
+		"history":
+		[
+			"os.getcwd()",
+			"import os;",
+			"os.getcwd()",
+			"from test_mnist import *",
+			"view.run_command(\"example\")",
+			"view.command('example')",
+			"view.run_command('example')",
+			"exit()",
+			"quit()",
+			"quit",
+			"exit",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib",
+		"/Users/yuandong/Dropbox/research/projects/image",
+		"/Users/yuandong/Dropbox/research/projects/opencv_py"
+	],
+	"file_history":
+	[
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/opencv_sample.py",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/data_driven_descent.proto",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/distortion_py2.cc",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/data_driven_descent.h",
+		"/Users/yuandong/Dropbox/research/projects/nn/neural_network.h",
+		"/Users/yuandong/Dropbox/daily_plan/plans/plans.org",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/test_eigen.cc",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/deformations.h",
+		"/Users/yuandong/Dropbox/research/projects/image/imageview.h",
+		"/Users/yuandong/Dropbox/research/projects/image/image.h",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/Makefile",
+		"/Users/yuandong/Dropbox/research/resume/res2.tex",
+		"/Users/yuandong/Dropbox/research/projects/schedule/simple_calc.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/deprecated_scheduler.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule_plan.sh",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule_lib.h",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule_lib.cc",
+		"/Users/yuandong/Dropbox/research/projects/schedule/task.pb.cc",
+		"/Users/yuandong/Dropbox/daily_plan/plans/diary.org",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/regressor.h",
+		"/Users/yuandong/Dropbox/security.txt",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/distort_image.py",
+		"/Users/yuandong/Dropbox/research/projects/image/py_common.h",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/data_driven_descent.pb.h",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/data_driven_descent.pb.cc",
+		"/Users/yuandong/Dropbox/diary3.org",
+		"/Users/yuandong/Dropbox/daily_plan/plans/distortion_py.cc",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/distortion_py.cc",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/deformation.sublime-project",
+		"/Users/yuandong/Dropbox/research/projects/image/py_common_boost.h",
+		"/Users/yuandong/Dropbox/research/projects/deformation_lib/image_interp.h",
+		"/Users/yuandong/Dropbox/daily_plan/plans/model_dos.yaml",
+		"/Users/yuandong/Dropbox/daily_plan/plans/game_theory.proto",
+		"/Users/yuandong/Dropbox/daily_plan/plans/model_dos2.yaml",
+		"/Users/yuandong/Dropbox/daily_plan/plans/game_theory.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/macro_scheduler.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/tmp.yaml",
+		"/Users/yuandong/Dropbox/daily_plan/plans/distort_image.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule_test.py",
+		"/Users/yuandong/Dropbox/daily_plan/plans/model.yaml",
+		"/Users/yuandong/Dropbox/linux.org",
+		"/Users/yuandong/Dropbox/daily_plan/plans/projects.org",
+		"/Users/yuandong/Dropbox/research/projects/schedule/task2.yaml",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule.sublime-project",
+		"/Users/yuandong/Dropbox/security2.txt",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule_test.cc",
+		"/Users/yuandong/Dropbox/research/projects/schedule/sample_todo.org",
+		"/Users/yuandong/Dropbox/research/projects/schedule/test_schedule.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/task.proto",
+		"/Users/yuandong/Dropbox/research/projects/schedule/task_pb2.py",
+		"/Users/yuandong/Dropbox/research/projects/schedule/Makefile",
+		"/Users/yuandong/Dropbox/research/projects/nn/experiments/nn_setting.yaml",
+		"/Users/yuandong/Dropbox/research/projects/schedule/task2.org",
+		"/Users/yuandong/Dropbox/research/projects/py/util/myutil.py",
+		"/Users/yuandong/Dropbox/research/projects/nn/nn_lib.cc",
+		"/Users/yuandong/Dropbox/research/projects/py/ec2/install.py",
+		"/Users/yuandong/Dropbox/research/projects/d3/template.html",
+		"/Users/yuandong/Dropbox/daily_plan/plan.sublime-project",
+		"/Users/yuandong/Dropbox/research/projects/schedule/task.org",
+		"/Users/yuandong/Dropbox/research/projects/schedule/task.org.txt",
+		"/Users/yuandong/Dropbox/research/projects/schedule/schedule.txt",
+		"/var/folders/xd/jplq2mbs0c7fm0w0z24gc_t40000gn/T/sublime-svn-1410750234/SVN",
+		"/var/folders/xd/jplq2mbs0c7fm0w0z24gc_t40000gn/T/sublime-svn-1410069775/SVN",
+		"/var/folders/xd/jplq2mbs0c7fm0w0z24gc_t40000gn/T/sublime-svn-1408813521/SVN",
+		"/var/folders/xd/jplq2mbs0c7fm0w0z24gc_t40000gn/T/sublime-svn-1408813395/SVN",
+		"/var/folders/xd/jplq2mbs0c7fm0w0z24gc_t40000gn/T/sublime-svn-1408813142/SVN",
+		"/var/folders/xd/jplq2mbs0c7fm0w0z24gc_t40000gn/T/sublime-svn-1408813170/SVN",
+		"/Users/yuandong/Dropbox/research/projects/nn/nn.sublime-project",
+		"/var/folders/xd/jplq2mbs0c7fm0w0z24gc_t40000gn/T/sublime-svn-1408812460/SVN",
+		"/Users/yuandong/Dropbox/research/projects/py/ec2/ec2_util.py",
+		"/Users/yuandong/Dropbox/research/projects/nn/test_mnist.py",
+		"/Users/yuandong/Dropbox/research/projects/d3/sample.html",
+		"/Users/yuandong/Dropbox/research/projects/py/ec2/check_ec2_status.py",
+		"/Users/yuandong/Dropbox/research/projects/d3/gen_html.py",
+		"/Users/yuandong/Dropbox/research/projects/py/util/merge_results.py",
+		"/Users/yuandong/Dropbox/research/projects/py/util/send_email.py",
+		"/Users/yuandong/Dropbox/research/projects/nn/experiments/test.yaml",
+		"/Users/yuandong/Dropbox/research/projects/nn/experiments/exp-conv2-al-rl.yaml",
+		"/Users/yuandong/Dropbox/research/projects/nn/send_email.py",
+		"/Users/yuandong/Dropbox/research/projects/nn/experiments/exp-nonconv300.yaml",
+		"/home/yuandong/Dropbox/research/projects/py/util/__init__.py",
+		"/home/yuandong/Dropbox/research/projects/py/__init__.py",
+		"/home/yuandong/Dropbox/research/projects/py/ec2/install.py",
+		"/home/yuandong/Dropbox/research/projects/py/util/send_email.py",
+		"/home/yuandong/Dropbox/research/projects/py/ec2/ec2_util.py",
+		"/home/yuandong/Dropbox/research/projects/nn/experiments/test.yaml",
+		"/home/yuandong/mnt/theano/DeepLearningTutorials/code/load_mnist.py",
+		"/home/yuandong/Dropbox/research/projects/nn/myutil.py",
+		"/home/yuandong/Dropbox/research/projects/nn/nn.sublime-project",
+		"/home/yuandong/Dropbox/research/projects/py/ec2/check_ec2_status.py",
+		"/home/yuandong/Dropbox/research/projects/ec2/check_ec2_status.py",
+		"/home/yuandong/Dropbox/research/projects/nn/install.py",
+		"/home/yuandong/Dropbox/research/projects/nn/nn_remote.yaml",
+		"/home/yuandong/Dropbox/research/projects/image/image_edge_detector.h",
+		"/home/yuandong/Dropbox/research/projects/image/image_filter.h",
+		"/home/yuandong/Dropbox/research/projects/common/logging.h",
+		"/home/yuandong/Dropbox/research/projects/image/imageview.h",
+		"/home/yuandong/Dropbox/research/projects/common/arrayn.h",
+		"/home/yuandong/Dropbox/research/projects/png/png.h",
+		"/home/yuandong/Dropbox/research/projects/image/image.h",
+		"/home/yuandong/Dropbox/research/projects/nn/nn_lib.cc",
+		"/home/yuandong/Dropbox/research/projects/nn/test_nn.cc",
+		"/home/yuandong/Dropbox/research/projects/nn/experiments/exp-conv2-with-data-init.yaml",
+		"/home/yuandong/Dropbox/research/projects/nn/experiments/exp-conv2-without-data-init.yaml",
+		"/home/yuandong/Dropbox/research/projects/nn/experiments/nn-install.yaml",
+		"/home/yuandong/Dropbox/research/projects/nn/neural_network.h",
+		"/home/yuandong/Dropbox/research/projects/nn/test_install.yaml",
+		"/home/yuandong/Dropbox/research/projects/nn/Makefile",
+		"/home/yuandong/Dropbox/research/projects/common_python/myutil.py",
+		"/home/yuandong/Dropbox/research/projects/ec2_tools/send_email.py",
+		"/home/yuandong/Dropbox/research/projects/ec2_tools/ec2_util.py",
+		"/home/yuandong/Dropbox/research/projects/ec2_tools/connect.py",
+		"/home/yuandong/Dropbox/research/projects/ec2_tools/check_ec2_status.py",
+		"/home/yuandong/Dropbox/research/projects/ec2/connect.py",
+		"/home/yuandong/Dropbox/research/projects/ec2/install.py",
+		"/home/yuandong/Dropbox/research/projects/ec2/ec2_util.py",
+		"/home/yuandong/Dropbox/research/projects/ec2_tools/myutil.py",
+		"/home/yuandong/Dropbox/research/projects/ec2_tools/setup_ec2.sh",
+		"/home/yuandong/Dropbox/research/projects/nn/common/vector_operation.h",
+		"/home/yuandong/Dropbox/research/projects/nn/neural_network6.cc",
+		"/home/yuandong/Dropbox/research/projects/nn/common/arrayn.h",
+		"/home/yuandong/Dropbox/research/projects/nn/nn/neural_network.pb.h",
+		"/home/yuandong/Dropbox/research/projects/nn/nn/neural_network.pb.cc",
+		"/home/yuandong/Dropbox/research/projects/nn/nn/neural_network.proto",
+		"/home/yuandong/Dropbox/research/projects/nn/image/image.h",
+		"/home/yuandong/Dropbox/research/projects/nn/png/color_space.h",
+		"/home/yuandong/Dropbox/research/projects/nn/png/png.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\t",
+			"CheckParamCondition",
+			"Reserve",
+			"\\t",
+			"Inverse",
+			"ParametricField",
+			"Matrix<T>",
+			"ImageBase",
+			"reveal_target",
+			"revealed",
+			"time_",
+			"ImageBase",
+			"MatrixBase",
+			"ImageBase",
+			"	",
+			"double",
+			"MatrixView<T>",
+			"Matrix<T>",
+			"Matrix<double>",
+			"MatrixView<T>",
+			"MatrixBase<T>",
+			"Matrix<T>",
+			"Matrix<double>",
+			"MatrixView<T>",
+			"Matrix<T>",
+			"MatrixBase<T>",
+			"Matrix<T>",
+			"fig",
+			"parametri",
+			"assumption:dof-patch",
+			"begin{algorithm}",
+			"relationship",
+			"image",
+			"parameteres",
+			"relationship",
+			"is",
+			"Lipchitz"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"    ",
+			"Image<T>",
+			"ImageView",
+			"targets",
+			"reveal",
+			"",
+			"ImageView",
+			"MatrixView",
+			"ImageView",
+			"  ",
+			"float",
+			"MatrixView",
+			"Matrix",
+			"MatrixView",
+			"MatrixBase",
+			"Matrix",
+			"image_d",
+			"ImageView<T>",
+			"Image<T>",
+			"MatrixBase",
+			"Matrix",
+			"parameteri",
+			"parameteri!",
+			"Lipschitz"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/yuandong/Dropbox/research/thesis/papers/dl_theory/newtheory2.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5553,
+								5553
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data_driven_descent.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4163,
+								4163
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2019.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test_eigen.cc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "deformation.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/mouse_and_match.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/opencv_sample.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1714,
+								1714
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/morphology.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/yuandong/Dropbox/research/projects/opencv_py/plane_tracker.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5263,
+								5263
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2063.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "data_driven_descent.pb.cc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3820.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "distort_image.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 30.0,
+						"translation.y": 878.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "distortion_util.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9914,
+								9914
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import numpy;",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3833.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/yuandong/Dropbox/linux.org",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21622,
+								21622
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/orgmode/orgmode.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 8873.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "deformations.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17215,
+								17215
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "image_interp.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1509,
+								1509
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 230.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "data_driven_descent.proto",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								970,
+								970
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Protocol Buffer Syntax/Proto (Raw).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "data_driven_descent_pb2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "deformation_tracker.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4768,
+								4768
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "video.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4608,
+								4608
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "data_driven_descent.pb.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 59566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "distortion_py2.cc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "legancy.cc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "regressor.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2071,
+								2071
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 889.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 86.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 112.0
+	},
+	"project": "deformation.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"linux",
+				"~/Dropbox/linux.org"
+			],
+			[
+				"la",
+				"~/Dropbox/daily_plan/plans/plans.org"
+			],
+			[
+				"",
+				"~/Dropbox/research/projects/schedule/sample_todo.org"
+			],
+			[
+				"sample",
+				"~/Dropbox/research/projects/schedule/sample_todo.org"
+			],
+			[
+				"~/dropbox/research/",
+				"~/Dropbox/research/image_deformation_lib/test_neural_network.cc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"folders":
+	[
+		{
+			"file_include_patterns":
+			[
+				"*.cc",
+				"*.h",
+				"*.py",
+				"*.proto",
+				"Makefile",
+				"CMakeLists.txt",
+				"*.yaml"
+			],
+			"follow_symlinks": true,
+			"name": "deformation",
+			"path": "./"
+		},
+		{
+			"file_include_patterns":
+			[
+				"*.cc",
+				"*.h",
+				"*.py",
+				"*.proto",
+				"Makefile",
+				"*.yaml"
+			],
+			"follow_symlinks": true,
+			"name": "matrix_lib",
+			"path": "../image"
+		},
+		{
+			"file_include_patterns":
+			[
+				"*.py",
+			],
+			"follow_symlinks": true,
+			"name": "opencv_sample",
+			"path": "../opencv_py"
+		}
+	]	
+}
