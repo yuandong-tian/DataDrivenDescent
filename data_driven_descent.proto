@@ -93,8 +93,14 @@ message AlgSpec {
 	// Nearest neighbor constant.
 	optional int32 nearest_neighbor = 2 [default = 1];
 
+	// Whether or not we use Pyramid.
+	optional bool use_pyramid = 3;
+
+	// If we do not use pyramid, how much blur we should apply for each layer.
+	optional float blur_sigma = 4;
+
 	// Whether to dump intermediate results.
-	optional bool dump_intermediate = 3;
+	optional bool dump_intermediate = 5;
 }
 
 // Results

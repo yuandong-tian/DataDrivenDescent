@@ -120,6 +120,7 @@ def get_ddd_parameters(dof, distortion_sigma, landmarks):
 def get_hddd_parameters(img, distortion_sigma, landmarks):
     alg_spec = data_driven_descent_pb2.AlgSpec();
     alg_spec.nearest_neighbor = 10;
+    alg_spec.blur_sigma = 1.0;
 
     # Specify the region.
     num_layer = landmarks.shape[1];
@@ -153,8 +154,6 @@ def get_hddd_parameters(img, distortion_sigma, landmarks):
 
                 region.width = right - region.left;
                 region.height = bottom - region.top;
-
-                region.num_samples_per_dim = 10;
 
                 region.max_magnitude = min(region.width, region.height) / 2;
                 magnitude = max(magnitude, region.max_magnitude);
@@ -209,6 +208,7 @@ def landmark_get_rect(landmarks, subset, minsize=0):
 def get_hddd_parameters_fixed_layer(img, distortion_sigma, landmarks, num_layer, ratio):
     alg_spec = data_driven_descent_pb2.AlgSpec();
     alg_spec.nearest_neighbor = 10;
+    alg_spec.blur_sigma = 1.0;
 
     # Specify the region.
     num_landmark = landmarks.size / landmarks.shape[0];

@@ -19,13 +19,24 @@ T L2NormSqr(const std::vector<T> &v) {
 template <typename T>
 class Representer {
 public:
+  Representer(int m, int n, int num_layers, float sigma_blur)
+      : num_layer_(num_layers), sigma_blur_(sigma_blur) {
+    image_pyramid_.resize(num_layer_);
+    for (int i = 0; i < num_layer_; ++i) {
+      // For now, allocate the image with the same size.
+      image_pyramid_[i].ReAllocate(m, n);
+    }
+  }
+
   // Compute Representation at layer t.
   bool ComputeRepresentation(const ImageView<T>& img) {
     identity_view_ = &img;
 
-    Resize(img, &image_pyramid_[0]);
-    for (int t = 1; t < num_layer_; ++t) {
-      Resize(image_pyramid_[t - 1], &image_pyramid_[t]);
+    image_pyramid_[num_layer_ - 1].CopyFrom(img);
+    // Resize(img, &image_pyramid_[0]);
+    for (int t = num_layer_ - 2; t >= 0; --t) {
+      OCVBlur(image_pyramid_[t + 1], sigma_blur_, &image_pyramid_[t]);
+      // Resize(image_pyramid_[t - 1], &image_pyramid_[t]);
     }
 
     return true;
@@ -37,12 +48,13 @@ public:
   }
 
 private:
-  const ImageView<T>* identity_view_;
+  const ImageView<T>* identity_view_ = nullptr;
 
   // Image pyramid.
   vector<Image<T>> image_pyramid_;
   //
   int num_layer_;
+  float sigma_blur_;
 };
 
 // Generate parameters from specification.
@@ -157,6 +169,7 @@ struct Predictor {
   ddd::Region region;
 
   vector<int> sample_indices;
+  int scale_factor = 0;
   std::unique_ptr<NNRegressor<T1, T2>> regressor;
 
   Predictor() { }
@@ -232,8 +245,10 @@ struct Predictor {
   // }
 
   void FilterLocs(const vector<Point>& locs) {
-    const int right = region.left() + region.width();
-    const int bottom = region.top() + region.height();
+    const int left = region.left() >> scale_factor;
+    const int top = region.top() >> scale_factor;
+    const int right = (region.left() + region.width()) >> scale_factor;
+    const int bottom = (region.top() + region.height()) >> scale_factor;
 
     sample_indices.clear();
     for (int i = 0; i < locs.size(); ++i) {
@@ -286,6 +301,16 @@ private:
         ymax = max(ymax, region.top() + region.height());
       }
 
+      // 
+      // const int scale_factor = 
+      //     alg_spec.use_pyramid() ? alg_spec.layers_size() - t - 1 : 0;
+      const int scale_factor = 0;
+
+      xmin >>= scale_factor;
+      ymin >>= scale_factor;
+      xmax >>= scale_factor;
+      ymax >>= scale_factor;
+
       // Get sample points from the image.
       const int nSide = layer_spec.num_samples_per_dim();
       for (int i = 0; i < nSide; ++i) {
@@ -300,14 +325,16 @@ private:
       for (int i = 0; i < layer_spec.regions_size(); ++i) {
         const ddd::Region& region = layer_spec.regions(i);
         pt[i].region = region;
+        pt[i].scale_factor = scale_factor;
         pt[i].regressor.reset(new NNRegressor<ImgType, ParamType>());
 
-        // Set up the samples
+        // Set up the sample_indices.
         pt[i].FilterLocs(sample_locs_[t]);
 
         // pt[i].AddSamplePoints(layer_spec.regions(i).num_samples_per_dim(), &sample_locs_[t]);
-
-        pt[i].regressor->Init(pt[i].sample_indices.size(), region.subsets_size(), layer_spec.sample_spec().num_samples());
+        pt[i].regressor->Init(
+          pt[i].sample_indices.size(), region.subsets_size(), 
+          layer_spec.sample_spec().num_samples());
         pt[i].regressor->SetParameters(alg_spec.nearest_neighbor());
       }
 

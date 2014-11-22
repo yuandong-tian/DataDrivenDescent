@@ -66,10 +66,8 @@ static PyObject* DeformImageWithField(PyObject *self, PyObject* args) {
 }
 
 // Samples.
-Representer<PixelType> representer_;
-
+std::unique_ptr<Representer<PixelType>> representer_;
 std::unique_ptr<ParametricField<float>> translation_field_;
-
 std::unique_ptr<ParametricField<float>> deformation_field_;
 std::unique_ptr<FieldServer<float>> field_server_;
 std::unique_ptr<SampleGenerator<PixelType, float>> generator_;
@@ -228,10 +226,12 @@ static PyObject* GenerateDDDSamples(PyObject* self, PyObject* args) {
     field_server_.reset(new FieldServer<float>(deformation_field_.get()));
     generator_.reset(new SampleGenerator<PixelType, float>(field_server_.get()));
 
-    Representer<PixelType> representer;
+    representer_.reset(new Representer<PixelType>(
+        deformation_spec_.image_width(), deformation_spec_.image_height(), 
+        alg_spec_.layers_size(), alg_spec_.blur_sigma()));
 
     regressor_emsemble_.reset(new RegressorEmsemble<PixelType, float>());
-    regressor_emsemble_->GenerateAndTrain(img_view, &representer, generator_.get(), deformation_spec_, alg_spec_);
+    regressor_emsemble_->GenerateAndTrain(img_view, representer_.get(), generator_.get(), deformation_spec_, alg_spec_);
     ddd_estimator_.reset(new DataDrivenDescent<PixelType, float>(regressor_emsemble_.get(), alg_spec_));
 
     Py_INCREF(Py_None);
@@ -264,8 +264,7 @@ static PyObject* EstimationWithDDD(PyObject* self, PyObject* args) {
     // cout << "Start deformation.." << endl;
     // Then estimate things with data-driven descent.
     ddd::Result result;
-    Representer<PixelType> representer;
-    ddd_estimator_->Estimate(deform_view, &representer, generator_.get(), deformation_spec_.warp_type(), &result);
+    ddd_estimator_->Estimate(deform_view, representer_.get(), generator_.get(), deformation_spec_.warp_type(), &result);
 
     LOG(INFO) << "result.SerializeToString" << endl;
     string output_result;

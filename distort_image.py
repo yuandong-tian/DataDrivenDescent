@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from matplotlib import pyplot as plt
-from skimage import data, io, filter, transform
+# from skimage import data, io, filter, transform
 import cv2
 import cProfile;
 import cPickle
@@ -11,6 +11,7 @@ import cPickle
 import itertools
 import deformation_pylib
 import data_driven_descent_pb2;
+import distortion_util
 
 import sys
 
@@ -227,105 +228,15 @@ def visualize_deformation_backward(img, landmarks, distortion_sigma):
         plot_landmarks(axes[i][1], landmarks, delta=p)
     plt.show();
 
-def get_def_spec(img, landmarks, warp_type):
-    def_spec = data_driven_descent_pb2.DeformationSpec();
-    def_spec.warp_type = data_driven_descent_pb2.FORWARD;
-    def_spec.image_width = img.shape[0]
-    def_spec.image_height = img.shape[1]
-
-    if warp_type == "affine":
-        def_spec.deformation_type = data_driven_descent_pb2.AFFINE;
-        def_spec.dof = 6;
-    elif warp_type == "landmark":
-        def_spec.deformation_type = data_driven_descent_pb2.LANDMARK;
-        # landmarks.
-        for val in landmarks.flat:
-            def_spec.landmarks.append(float(val));
-        def_spec.num_landmarks = landmarks.size / landmarks.shape[0];
-        def_spec.dof = landmarks.size;
-
-    return def_spec;
-
-def get_ddd_parameters(dof, distortion_sigma, landmarks):
-    alg_spec = data_driven_descent_pb2.AlgSpec();
-    alg_spec.num_samples = 3000;
-    alg_spec.sigma = distortion_sigma;
-    alg_spec.power = 1;
-    alg_spec.nearest_neighbor = 10;
-    alg_spec.num_iterations = 50;
-
-    # Specify the region.
-    region = alg_spec.regions.add();
-    region.layer = 0;
-    region.left = 0;
-    region.top = 0;
-    region.width = img.shape[0];
-    region.height = img.shape[1];
-    #region.subsets.extend(range(landmarks.size));
-    region.subsets.extend(range(dof));
-
-    region.universal = True;
-
-    return alg_spec;
-
-def get_hddd_parameters(img, distortion_sigma, landmarks):
-    alg_spec = data_driven_descent_pb2.AlgSpec();
-    alg_spec.num_samples = 350;
-    alg_spec.sigma = distortion_sigma;
-    alg_spec.power = 1;
-    alg_spec.nearest_neighbor = 10;
-    alg_spec.sample_type = data_driven_descent_pb2.ONLY_TRANSLATION;
-    alg_spec.num_inner_iterations = 3;
-
-    # Specify the region.
-    num_layer = landmarks.shape[1];
-    num_landmark = landmarks.size / landmarks.shape[0];
-
-    margin = 20;
-    landmarks_2 = landmarks.reshape((2, landmarks.shape[1] * landmarks.shape[2]));
-
-    for layer in range(num_layer):
-        side = num_layer - layer;
-        for i in range(layer + 1):
-            for j in range(layer + 1):
-                region = alg_spec.regions.add();
-                region.layer = layer;
-
-                region.left = int(landmarks[0,i:i+side,j:j+side].min()) - margin
-                region.top = int(landmarks[1,i:i+side,j:j+side].min()) - margin
-                right = int(landmarks[0,i:i+side,j:j+side].max()) + margin
-                bottom = int(landmarks[1,i:i+side,j:j+side].max()) + margin
-
-                region.left = max(region.left, 0)
-                region.top = max(region.top, 0)
-                right = min(right, img.shape[0])
-                bottom = min(bottom, img.shape[1])
-
-                region.width = right - region.left;
-                region.height = bottom - region.top;
-
-                region.max_magnitude = min(region.width, region.height) / 2;
-
-                for ii in range(i, i+side):
-                    for jj in range(j, j+side):
-                        index = jj + ii * landmarks.shape[2];
-                        region.subsets.extend([index, index + num_landmark]);
-
-                print "Box (layer %d): [%d %d %d %d]" % (region.layer, region.left, region.top, region.width, region.height);
-                print "Subsets: ", region.subsets
-                print "Sample landmark: landmark[%d] = %s" % (region.subsets[0], str(landmarks_2[:,region.subsets[0]]));
-                print "max_magnitude: ", region.max_magnitude;
-
-    return alg_spec;    
-
 def run_ddd(deform):
     return data_driven_descent_pb2.Result.FromString(deformation_pylib.EstimationWithDDD(deform));
 
 def test_data_driven_descent(img, landmarks, distortion_sigma):
     # Landmark is set
-    def_spec = get_def_spec(img, landmarks, "landmark")
+    def_spec = distortion_util.get_def_spec(img, landmarks, "landmark")
     #alg_spec = get_ddd_parameters(def_spec.dof, distortion_sigma, landmarks)
-    alg_spec = get_hddd_parameters(img, distortion_sigma, landmarks);
+    alg_spec = distortion_util.get_hddd_parameters_fixed_layer(img, distortion_sigma, landmarks, 7, 0.7);
+    alg_spec.dump_intermediate = True;
 
     deformation_pylib.InitializeDeformation(def_spec.SerializeToString());
 
@@ -338,6 +249,8 @@ def test_data_driven_descent(img, landmarks, distortion_sigma):
         #p = numpy.array([5.0] * def_spec.dof).astype('f4');                
         deformation_pylib.SetParameters(p);
         deformation_pylib.DeformImage(img, deform);
+        import pdb;
+        pdb.set_trace();
 
         print "Run Data-Driven Descent"
         #cProfile.runctx("result = run_ddd(deform)", {"deform" : deform, "run_ddd" : run_ddd}, {});
@@ -383,18 +296,22 @@ def test_data_driven_descent(img, landmarks, distortion_sigma):
 #cProfile.run = eval
 scale = 4;
 
-img = data.imread("test2.png");
+img = cv2.imread("test2.png");
 img = img[:,:,0:3]
-img = transform.resize(img, (img.shape[0] / scale, img.shape[1] / scale, img.shape[2])).astype('f4')
+img = cv2.resize(img, (img.shape[0] / scale, img.shape[1] / scale)).astype('f4')
 img = numpy.ascontiguousarray(img)
 print img.shape
 print img.dtype
+
+# cv2.imshow("Test2", img);
+# cv2.waitKey()
+# sys.exit(0);
 
 m, n, channel = img.shape;
 
 print "Set Landmarks"
 nSide = 3;
-landmarks = create_landmarks(m, n, nSide)
+landmarks = distortion_util.create_landmarks(m, n, nSide)
 # deformation_pylib.SetLandmarks(m, n, landmarks.reshape((2, nSide*nSide)))
 
 #visualize_deformation_backward(img, landmarks, 6.0)
